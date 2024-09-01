@@ -5,23 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./output.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> lin
 
+    <title>Yash Electronics</title>
 
 </head>
 
 <body>
-    <!DOCTYPE html>
-    <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Electronics Shop</title>
-        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"
-        />
-    </head>
 
     <body class="bg-gray-100 font-font">
 
@@ -60,7 +51,7 @@
                 </div>
             </div>
             <!--Nav bar-->
-            <nav class="w-full bg-customTeal p-4 flex justify-between text-white">
+            <nav class="w-full bg-customTeal p-4 flex justify-between text-white shadow-2xl">
                 <ul class="flex justify-between ml-28 w-2/4">
                     <li>Samsung</li>
                     <li>Oppo</li>
@@ -105,6 +96,7 @@
             <!-- Large Image with Text and Button Overlay -->
             <div class="relative mb-6">
                 <img src="Slider 1.jpg" alt="Large Image" class="w-full h-full object-cover">
+
                 <div class="absolute inset-0 flex items-center justify-start p-6">
                     <div class="text-white">
                         <p class="text-lg">Exclusive</p>
@@ -385,7 +377,7 @@
             <div class="grid grid-cols-3 gap-x-72 gap-y-16 ">
                 <div class="p-5 border-1 border-gray-500 relative w-72 h-52">
                     <p class="absolute top-10 p-1 rounded-md bg-red-600 w-20">10% OFF</p>
-                    <img src="Images/Brand Logo/1-2.jpg" alt="">
+                    <img src="Images/Product/1.jpg" alt="">
                 </div>
                 <div class="p-5 border-1 border-gray-500 relative w-72 h-52">
                     <p class="absolute top-10 p-1 rounded-md bg-red-600 w-20">10% OFF</p>
@@ -410,27 +402,73 @@
             </div>
         </div>
         <!--grid container end-->
-        <div class="mt-32">
-            <divc class="w-full bg-emerald-200">
+        <div class=" container mx-auto mt-32">
+            <divc class="ml-6 font-bold text-4xl text-gray-400">
                 Our Brands
             </divc>
             <div class="flex justify-between p-7 gap-2">
-                <img class="p-5 border-2 border-gray-500" src="Images/Brand Logo/1.png" alt="">
-                <img class="p-5 border-2 border-gray-500" src="Images/Brand Logo/2.png" alt="">
-                <img class="p-5 border-2 border-gray-500" src="Images/Brand Logo/3.png" alt="">
-                <img class="p-5 border-2 border-gray-500" src="Images/Brand Logo/4.png" alt="">
-                <img class="p-5 border-2 border-gray-500" src="Images/Brand Logo/5.png" alt="">
+                <img class="p-5 border-2 border-gray-400" src="Images/Brand Logo/1.png" alt="">
+                <img class="p-5 border-2 border-gray-400" src="Images/Brand Logo/2.png" alt="">
+                <img class="p-5 border-2 border-gray-400" src="Images/Brand Logo/3.png" alt="">
+                <img class="p-5 border-2 border-gray-400" src="Images/Brand Logo/4.png" alt="">
+                <img class="p-5 border-2 border-gray-400" src="Images/Brand Logo/5.png" alt="">
             </div>
         </div>
-
-
+        <!--footer-->
+        <div class=" grid grid-cols-5 mx-auto p-5">
+            <!--newsletter-->
+            <div class="grid gap-3 w-fit text-gray-500">
+                <h2 class="font-bold text-2xl">News Letter</h2>
+                <p>Send Us a message</p>
+                <p>Dard my.</p>
+                <input type="text" placeholder="Enter Your Email">
+                <button class="bg-blue-400">Subscribe</button>
+            </div>
+            <!--Cantegory-->
+            <div class="grid w-fit text-gray-500 ">
+                <h2 class="text-2xl font-bold">Category</h2>
+                <p>Clothes</p>
+                <p>Electronics</p>
+                <p>Arts</p>
+                <p>Laptops</p>
+                <p>Home & appliances</p>
+                <p>Smart Phones</p>
+            </div>
+            <!--Our Company-->
+            <div class="grid w-fit gap-2 text-gray-500">
+                <h2 class="text-2xl font-bold">Our Company</h2>
+                <p>Dilevery</p>
+                <p>Legal Notice</p>
+                <p>Terms and condition of use</p>
+                <p>About Us</p>
+                <p>Secure Payments</p>
+                <p>Contact Us</p>
+            </div>
+            <!--Your account-->
+            <div class="grid w-fit text-gray-500">
+                <h2 class="text-2xl font-bold">Personal Info</h2>
+                <p>Orders</p>
+                <p>Credit Slips</p>
+                <p>Addresses</p>
+                <p>My WishList</p>
+                <p>My Alerts</p>
+            </div>
+            <!--Store information-->
+            <div class="grid w-fit text-gray-500">
+                <h2 class="text-2xl font-bold">Store Information</h2>
+                <p>Electronics Store</p>
+                <p>Demo@demo.com</p>
+                <p>555-999-666-001</p>
+                <p>11-444-666-7770</p>
+            </div>
+        </div>
     </body>
 
-    </html>
+</html>
 
 
 </body>
-<script src="index.js "></script>
+
 
 </html>
 
